@@ -40,7 +40,7 @@ async function enviar() {
 //exemplo2
 function enviarEmail (destinatario) {
     console.log(`Enviando e-mail para ${destinatario}`);
-    await esperar();
+    // await esperar();
     console.log ('Finalizado')
 }
 
