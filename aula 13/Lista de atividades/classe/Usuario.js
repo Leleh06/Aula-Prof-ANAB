@@ -31,3 +31,29 @@ class Usuario {
 const objetoUsuario = new Usuario ();
 objetoUsuario.setNome("Leticya");
 objetoUsuario.getNome();
+
+//5-
+class Livro {
+    constructor(titulo,autor,ano){
+        this.titulo = titulo;
+        this.autor = autor;
+        this.ano = ano;
+    }
+
+    setTitulo (){
+        this.titulo = this.titulo;
+    }
+
+    getTitulo (){
+        return this.titulo = this.titulo;
+    }
+}
+const objetoLivro = new Livro();
+objetoLivro.setTitulo("O menino do pijama Listrado")
+let livro = objetoLivro.getTitulo();
+console.log(livro)
+
+const objetoLivro2 = new Livro();
+objetoLivro2.setTitulo("O menino do pijama Listrado")
+let livro2 = objetoLivro.getTitulo();
+console.log(livro2)

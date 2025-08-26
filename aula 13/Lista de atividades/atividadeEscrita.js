@@ -15,4 +15,4 @@
 //Liste os atributos e métodos que você colocaria em uma classe “Aluno”.
 
 //Métodos:estudar,escrever,perguntar,chegarNaEscola
-//Atributos:nome,turma,idade,máteriaFavorita,professorFavorito
+//Atributos:nome,turma,idade,máteriaFavorita,professorFavorito 
