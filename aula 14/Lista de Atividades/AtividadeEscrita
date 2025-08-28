@@ -1,0 +1,16 @@
+Atividade 1
+Contexto: É importante entender quem pode acessar cada tipo de dado para proteger informações
+e manter a lógica correta.
+
+Comando:
+1º Explique COM AS SUAS PALAVRAS o que é public, private e protected.
+R: PUBLIC É algo acessivel para as pessoas, onde é algo aberto para qualquer pessoa acessar
+PRIVATE É como você ter uma conta que só você vai saber a senha, ninguem pode entrar e acessar sem autorização, diferente do public.
+PROTECTED É quase parecido com o private, so pode ter acesso quem você autorizar e der a chave de acesso, não é o ideal para acesso externo 
+
+2º Explique COM AS SUAS PALAVRAS o que é GET e SET dentro de uma classe.
+R:GET buscar dados,ler e pegar 
+SET definir regra e vlidação 
+
+3º Explique COM AS SUAS PALAVRAS para que serve o encapsulamento.
+R: O encapsulamento eu consigo deixar somente partes do codigo a vista, esconder os detalhes interno e deixar o restante do codigo rodando de forma organizada, forma de proteger dados
