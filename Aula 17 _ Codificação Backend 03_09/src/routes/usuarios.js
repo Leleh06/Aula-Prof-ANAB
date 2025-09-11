@@ -6,7 +6,7 @@ const db = require('../config/db');
 // GET
 router.get('/', async (req, res) => {
     try {
-        const [rows] = await db.query('SELECT id, nome FROM usuario');
+        const [rows] = await db.query('SELECT id, nome, email, cpf FROM usuario');
         res.json(rows);
     } catch (err) {
         console.error(err);
@@ -20,7 +20,7 @@ router.post('/', async (req, res) => {
     if (!nome || !email) return res.status(400).json({ erro: 'Nome e email obrigatórios' });
 
     try {
-        const [result] = await db.query('INSERT INTO usuario (nome, email, datahora_cadastro, datahora_atualizado) VALUES (?, ?, NOW(), NOW())', [nome, email]);
+        const [result] = await db.query('INSERT INTO usuario (NOME, EMAIL) VALUES (?, ?)', [nome, email]);
         res.status(201).json({ mensagem: 'Usuário cadastrado!', id: result.insertId });
     } catch (err) {
         console.error(err);
